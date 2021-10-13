@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow", sans-serif;
+}
+.border_1 {
+  border: 1px solid #e4e4e4;
+}
+.max-w-392 {
+  max-width: 392px;
+}
+.min-h-500 {
+  min-height: 500px;
+}
+.mx-w-540 {
+  width: 540px;
+}
+
+.h-502 {
+  height: 502px;
+}
+.h-702 {
+  height: 550px;
+}
+.h_272 {
+  height: 272px;
+}
+.textTruncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.brownbg {
+  height: 295px;
+}
+.transform-detail {
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line-clamp {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+
+  @supports (-webkit-line-clamp: 3) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+@media (min-width: 768px) {
+  .team-bg,
+  .karriar-bg,
+  .backgroundImg-detail {
+    height: 500px;
+  }
+  .w-552 {
+    width: 552px;
+  }
+  .w-540 {
+    width: 540px;
+  }
+
+}
+@media (max-width: 768px) {
+  .brownbg {
+    height: auto;
+  }
+  .transform-detail {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 640px) {
+  .karriar-bg,
+  .backgroundImg-detail,
+  .team-bg,
+  .backgroundImg-blog {
+    height: 400px;
+  }
+  .brownbg {
+    height: auto;
+  }
+}
+
+
+.pb_84 {
+  padding-bottom: 84px;
+}
+.top_98 {
+  top: -85px;
+  left: -32px;
+}
+.mx-w-600 {
+  max-width: 600px;
+}
+.ourcutomer-shadow {
+  box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+}
+.min-h-64 {
+  min-height: 64px;
+}
+
+.backgroundImg-detail {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.team-bg {
+  background: url("./../images/headers/team.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.backgroundImg-blog {
+  background: url("./../images/headers/blog.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.karriar-bg {
+  background: url("./../images/headers/karriar.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-shadow {
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.gatsby-image-wrapper img {
+  height: auto !important;
+}

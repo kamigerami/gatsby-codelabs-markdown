@@ -1,0 +1,82 @@
+/* %%%%%%%%% Pagination %%%%%%%%%%%%%%%*/
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.pageNumber{
+  /* background-color: #000; */
+}
+.currentPageNumber {
+  pointer-events: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 6px 12px;
+  background-color: #000;
+  margin: 4px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.paginationNumber {
+  color: #fff;
+  font-size: 18px;
+  padding: 6px 12px;
+  background-color: #565656;
+  margin: 4px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.paginationNumber:hover {
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.nextPageClassName {
+  display: block;
+  align-self: center;
+  padding: 8px 9px;
+  background-color: #565656;
+  margin: -6px 4px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.nextPrev {
+  color: #fff;
+  font-size: 18px;
+  display: block;
+}
+.nextPageClassName:hover {
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.disabledButton {
+  display: block;
+  pointer-events: none;
+  align-self: center;
+  padding: 8px 9px;
+  color: #ddd;
+  background-color: #999;
+  margin: -6px 4px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
